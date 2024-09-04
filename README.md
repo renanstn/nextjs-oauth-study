@@ -14,6 +14,18 @@ Entender como mockar elementos de getSession em componentes 'server side' do Rea
 - Instalar o maldito next-auth
   - npm install next-auth
 
+## ENV file
+
+`.env.local`
+
+```
+NEXTAUTH_SECRET=secret!!!
+
+GITHUB_SECRET=""
+GITHUB_ID=""
+```
+
+
 ## Tutorial seguido
 
 - https://dev.to/andrews1022/integrate-github-oauth-with-nextauthjs-in-nextjs-13-with-custom-sign-in-out-pages-38mm
