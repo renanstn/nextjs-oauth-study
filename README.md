@@ -7,12 +7,12 @@ Entender como mockar elementos de getSession em componentes 'server side' do Rea
 ## Passos
 
 - Inicializar um projeto next.js
-  - npx create-next-app@latest
+  - `npx create-next-app@latest`
 - Implementar testes com Cypress neste template basico
-  - npm install cypress --save-dev
-  - npx cypress open
-- Instalar o maldito next-auth
-  - npm install next-auth
+  - `npm install cypress --save-dev`
+  - `npx cypress open`
+- Instalar o next-auth
+  - `npm install next-auth`
 
 ## ENV file
 
@@ -36,7 +36,7 @@ GITHUB_ID=""
 - Abrir o Cypress com o comando
 - Executar os testes
 
-## Github oAuth example
+## Exemplo de configuração do Github oAuth
 
 ![github](screenshot.png)
 
