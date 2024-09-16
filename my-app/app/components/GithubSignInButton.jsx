@@ -2,7 +2,7 @@
 
 import { signIn } from "next-auth/react";
 
-const SignInButton = () => {
+const GithubSignInButton = () => {
   return (
     <button
       className="bg-slate-600 px-4 py-2 text-white"
@@ -14,4 +14,4 @@ const SignInButton = () => {
   );
 };
 
-export default SignInButton;
+export default GithubSignInButton;
