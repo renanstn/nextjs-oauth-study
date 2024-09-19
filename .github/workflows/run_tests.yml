@@ -19,6 +19,9 @@ jobs:
       - name: Install dependencies
         working-directory: ./my-app
         run: npm install
+      - name: Up app
+        working-directory: ./my-app
+        run: npm run dev &
       - name: Run tests
         working-directory: ./my-app
         run: npm run test:e2e:run
